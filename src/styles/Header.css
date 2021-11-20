@@ -1,0 +1,14 @@
+:root {
+    --slate: #30343d;
+    --green: #92cccd;
+    --blue: #455875;
+    --white: white;
+}
+
+ul {
+    background-color: var(--slate);
+}
+
+a {
+    color: var(--white);
+}
