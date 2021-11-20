@@ -9,6 +9,27 @@ ul {
     background-color: var(--slate);
 }
 
-a {
-    color: var(--white);
+li {
+    flex: 1 1 50px;
+    max-width: 200px;
 }
+
+
+.nav-link {
+    background-color: var(--slate) !important;
+    color: var(--white) !important;
+}
+
+.active {
+    background-color: var(--green) !important;
+    color: var(--slate) !important;
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        li {
+            font-size: 10px;
+        }
+    }
