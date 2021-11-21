@@ -17,10 +17,19 @@ li {
 
 .nav-link {
     background-color: var(--slate) !important;
+    color: var(--green) !important;
+}
+
+.nav-link:hover {
     color: var(--white) !important;
 }
 
 .active {
+    background-color: var(--green) !important;
+    color: var(--slate) !important;
+}
+
+.active:hover {
     background-color: var(--green) !important;
     color: var(--slate) !important;
 }
