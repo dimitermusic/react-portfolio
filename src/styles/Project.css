@@ -1,10 +1,7 @@
-.project-section {
-  margin-top: 33px;
-  margin-bottom: 33px;
-}
-
 .project-card {
+  margin: 33px;
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
   width: 330px;
   height: 247.5px;
@@ -12,6 +9,9 @@
 
 .project-card img {
   object-fit: cover;
+  object-position: top;
+  width: 330px;
+  height: 132px;
 }
 
 .project-label {
@@ -39,7 +39,7 @@
 .links a {
   padding: 10px;
   margin: 0px 10px 20px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--white);
   background-color: var(--green);
   color: var(--slate);
