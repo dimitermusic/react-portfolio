@@ -28,10 +28,11 @@ export default function Resume() {
       <div className="resume-link">
         <p>
           <a
+            target="_blank"
             href="https://drive.google.com/file/d/1cwcsnHhTMlWOk5BMqWJevgqZG5DxZ45j/view?usp=sharing">
             Click Here
           </a>
-          {' '}to download my resume.
+          {' '}to view and download my resume.
         </p>
       </div>
     </div>
