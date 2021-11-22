@@ -11,6 +11,7 @@
     align-items: center;
     background-color: var(--slate);
     height: 10vh;
+    padding-bottom: 33px;
 }
 
 .icons a {
