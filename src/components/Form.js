@@ -38,6 +38,8 @@ function Form() {
     setErrorMessage('')
     if (!validateEmail(email)) {
       setErrorMessage('* Email is invalid');
+    } else if (name === '' || message === '') {
+      setErrorMessage('* All fields are required');
     } else {
       alert(`Message sent successfully!
       
@@ -55,11 +57,6 @@ Thank you for your message, ${name}! I will get back to you as soon as possible.
           type="text"
           placeholder="Name"
         />
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
         <input
           value={email}
           name="email"
@@ -79,6 +76,11 @@ Thank you for your message, ${name}! I will get back to you as soon as possible.
         <button className="button" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
       </form>
     </div>
   );
