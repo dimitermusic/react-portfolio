@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import '../styles/Form.css'
+import emailjs from 'emailjs-com';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
-import AboutMe from './pages/AboutMe';
+import Swal from 'sweetalert2';
 
 function Form() {
   // Create state variables for the fields in the form
@@ -31,20 +32,42 @@ function Form() {
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-    // If successful, we want to clear out the input after registration.
-    setName('');
-    setEmail('');
-    setMessage('');
-    setErrorMessage('')
-    if (!validateEmail(email)) {
-      setErrorMessage('* Email is invalid');
-    } else if (name === '' || message === '') {
-      setErrorMessage('* All fields are required');
-    } else {
-      alert(`Message sent successfully!
+    // Using EmailJS to send email with input from form to me
+    const SERVICE_ID = process.env.SERVICE_ID;
+    const TEMPLATE_ID = process.env.TEMPLATE_ID;
+    const USER_ID = process.env.TEMPLATE_ID;
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, '.form', USER_ID)
+      .then((result) => {
+        console.log(result.text);
+
+        // If successful, we want to clear out the input after registration.
+        setName('');
+        setEmail('');
+        setMessage('');
+        setErrorMessage('')
+        if (!validateEmail(email)) {
+          setErrorMessage('* Email is invalid');
+        } else if (name === '' || message === '') {
+          setErrorMessage('* All fields are required');
+        } else {
+          alert(`Message sent successfully!
       
 Thank you for your message, ${name}! I will get back to you as soon as possible.`);
-    }
+        };
+        e.target.reset()
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent Successfully'
+        })
+      }, (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: 'error',
+          title: 'Ooops, something went wrong',
+          text: error.text,
+        })
+      });
   }
 
   return (
