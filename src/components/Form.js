@@ -56,14 +56,11 @@ function Form() {
         } else if (name === '' || message === '') {
           setErrorMessage('* All fields are required');
         } else {
-          alert(`Message sent successfully!
-      
-Thank you for your message, ${name}! I will get back to you as soon as possible.`);
+          Swal.fire({
+            icon: 'success',
+            title: 'Message Sent Successfully'
+          })
         };
-        Swal.fire({
-          icon: 'success',
-          title: 'Message Sent Successfully'
-        })
       }, (error) => {
         console.log(error.text);
         Swal.fire({
