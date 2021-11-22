@@ -33,6 +33,8 @@ function Form() {
     }
   };
 
+
+
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
@@ -41,36 +43,35 @@ function Form() {
     const TEMPLATE_ID = 'template_exgi7w3';
     const USER_ID = 'user_3JaLO91na8xwgEsuHE5qB';
     const form = document.querySelector('.form')
-    console.log(form);
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, USER_ID)
-      .then((result) => {
-        console.log(result.text);
-        // If successful, we want to clear out the input after registration.
-        setName('');
-        setEmail('');
-        setMessage('');
-        setErrorMessage('')
-        if (!validateEmail(email)) {
-          setErrorMessage('* Email is invalid');
-        } else if (name === '' || message === '') {
-          setErrorMessage('* All fields are required');
-        } else {
+    if (!validateEmail(email)) {
+      setErrorMessage('* Email is invalid');
+    } else if (name === '' || message === '') {
+      setErrorMessage('* All fields are required');
+    } else {
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, USER_ID)
+        .then((result) => {
+          console.log(result.text);
+          // If successful, we want to clear out the input after registration.
           Swal.fire({
             icon: 'success',
             title: 'Message Sent Successfully'
           })
-        };
-      }, (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: 'error',
-          title: 'Ooops, something went wrong',
-          text: error.text,
-        })
-      });
-  }
+        }, (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'error',
+            title: 'Ooops, something went wrong',
+            text: error.text,
+          })
+        });
 
+      setName('');
+      setEmail('');
+      setMessage('');
+      setErrorMessage('')
+    };
+  }
   return (
     <div className="form-container">
       <form className="form">
@@ -108,6 +109,6 @@ function Form() {
       </form>
     </div>
   );
-};
+}
 
 export default Form;
