@@ -16,12 +16,14 @@ function Project(props) {
                     <a
                         target="_blank"
                         href={props.github}
+                        rel="noreferrer"
                     >
                         Github Repository
                     </a>
                     <a
                         target="_blank"
                         href={props.deployed}
+                        rel="noreferrer"
                     >
                         Deployed Site
                     </a>

@@ -29,7 +29,9 @@ export default function Resume() {
         <p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1cwcsnHhTMlWOk5BMqWJevgqZG5DxZ45j/view?usp=sharing">
+            href="https://drive.google.com/file/d/1cwcsnHhTMlWOk5BMqWJevgqZG5DxZ45j/view?usp=sharing"
+            rel="noreferrer"
+            >
             Click Here
           </a>
           {' '}to view and download my resume.

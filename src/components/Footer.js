@@ -12,6 +12,7 @@ function Footer() {
         <a
           target="_blank"
           href="https://www.linkedin.com/in/dimitermusic/"
+          rel="noreferrer"
         >
           <div>
             <FaLinkedin />
@@ -20,6 +21,7 @@ function Footer() {
         <a
           target="_blank"
           href="https://github.com/dimitermusic"
+          rel="noreferrer"
         >
           <div>
             <FaGithub />
@@ -28,6 +30,7 @@ function Footer() {
         <a
           target="_blank"
           href="https://www.youtube.com/channel/UCfu37nGmXSfgaMsUS5yO85g"
+          rel="noreferrer"
         >
           <div>
             <FaYoutube />

@@ -51,9 +51,6 @@
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
     .nav-bar {
         flex-wrap: wrap;
-    }
-
-    .nav-bar li {
-    font-size: 13px;
+        flex-direction: column;
     }
 }
