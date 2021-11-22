@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import '../styles/Form.css'
 import emailjs from 'emailjs-com';
+import { init } from 'emailjs-com';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 import Swal from 'sweetalert2';
+init('user_3JaLO91na8xwgEsuHE5qB')
+
+
 
 function Form() {
   // Create state variables for the fields in the form
@@ -33,14 +37,15 @@ function Form() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     // Using EmailJS to send email with input from form to me
-    const SERVICE_ID = process.env.SERVICE_ID;
-    const TEMPLATE_ID = process.env.TEMPLATE_ID;
-    const USER_ID = process.env.TEMPLATE_ID;
+    const SERVICE_ID = 'service_skppuri';
+    const TEMPLATE_ID = 'template_exgi7w3';
+    const USER_ID = 'user_3JaLO91na8xwgEsuHE5qB';
+    const form = document.querySelector('.form')
+    console.log(form);
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, '.form', USER_ID)
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, USER_ID)
       .then((result) => {
         console.log(result.text);
-
         // If successful, we want to clear out the input after registration.
         setName('');
         setEmail('');
@@ -55,7 +60,6 @@ function Form() {
       
 Thank you for your message, ${name}! I will get back to you as soon as possible.`);
         };
-        e.target.reset()
         Swal.fire({
           icon: 'success',
           title: 'Message Sent Successfully'
