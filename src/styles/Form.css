@@ -43,6 +43,10 @@
   font-size: 16px;
 }
 
+.error-text {
+  color: red;
+}
+
 .button:hover {
   background-color: var(--white);
 }
