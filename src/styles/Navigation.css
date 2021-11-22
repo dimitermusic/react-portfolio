@@ -7,7 +7,7 @@
 
 .nav-bar {
     background-color: var(--slate);
-    height: 100px;
+    height: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,11 +48,11 @@
 }
 
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-    .nav-bar li {
-    font-size: 13px;
-    }
-
     .nav-bar {
         flex-wrap: wrap;
+    }
+
+    .nav-bar li {
+    font-size: 13px;
     }
 }
