@@ -10,7 +10,7 @@ export default function AboutMe() {
       </h1>
       <img src={dimiterProfile} alt="dimiter yordanov"/>
       <p>
-        Established, award-winning music composer (Netflix, Hulu, Prime Video, NEON, and more), musical artist, and full stack web developer. At the core, I am a problem solver and learner. Always growing.
+        Established, award-winning music composer (Netflix, Hulu, Prime Video, NEON), musical artist, and full stack web developer. At the core, I am a problem solver, learner, and creative visionary. Always growing and discovering.
       </p>
     </div>
   );
