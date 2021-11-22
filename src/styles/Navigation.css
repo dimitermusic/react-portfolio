@@ -7,18 +7,25 @@
 
 .nav-bar {
     background-color: var(--slate);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
-ul {
-    border-style: none !important;
-}
-
-li {
-    flex: 1 1 50px;
-    max-width: 200px;
+.nav-bar li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     height: 100%;
 }
 
+.nav-bar h1 {
+    color: var(--green);
+    display: flex;
+    margin-left: 30px;
+}
 
 .nav-link {
     background-color: var(--slate) !important;
@@ -40,11 +47,12 @@ li {
     color: var(--slate) !important;
 }
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-        li {
-            font-size: 10px;
-        }
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    .nav-bar li {
+    font-size: 13px;
     }
+
+    .nav-bar {
+        flex-wrap: wrap;
+    }
+}

@@ -6,6 +6,7 @@ import '../styles/Navigation.css'
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="nav-bar">
+      <h1>Dimiter Yordanov</h1>
       <ul className="nav">
         <li className="nav-item">
           <a

@@ -1,0 +1,26 @@
+:root {
+    --slate: #30343d;
+    --green: #92cccd;
+    --blue: #455875;
+    --white: white;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--blue);
+    width: 100%;
+    height: 768px;
+}
+
+.page h1 {
+    margin-top: 3%;
+    color: var(--white);
+    padding: 4%;
+}
+
+.page p {
+    padding: 4%;
+    color: var(--white);
+}

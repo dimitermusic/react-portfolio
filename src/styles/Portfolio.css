@@ -5,7 +5,7 @@
     --white: white;
 }
 
-.about-me {
+.portfolio {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -15,7 +15,7 @@
     height: 768px;
 }
 
-.about-me h1 {
+.portfolio h1 {
     margin-top: 33px;
     color: var(--white);
 }
@@ -30,15 +30,15 @@ img {
     object-fit: cover;
 }
 
-.about-me p {
+.portfolio p {
     margin-top: 33px;
     color: var(--white);
-    text-align: justify;
-    width: 30%;
+    text-align: center;
+    width: 50%;
 }
 
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-    .about-me p {
+    .portfolio p {
     width: 80%;
     }
 }
