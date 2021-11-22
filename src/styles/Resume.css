@@ -5,22 +5,59 @@
     --white: white;
 }
 
-.page {
+.resume {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
+    align-items: center;
     background-color: var(--blue);
     width: 100%;
     height: 768px;
 }
 
-.page h1 {
-    margin-top: 3%;
+.resume h1 {
+    margin-top: 33px;
     color: var(--white);
-    padding: 4%;
 }
 
-.page p {
-    padding: 4%;
+.resume h4 {
+    margin-top: 33px;
     color: var(--white);
+}
+
+.resume p {
+    margin-top: 33px;
+    color: var(--white);
+    text-align: center;
+}
+
+.resume li {
+    color: var(--white);
+}
+
+.resume-link p a {
+    margin-top: 33px;
+    text-align: center;
+}
+
+.resume a:link {
+    color: var(--green);
+}
+
+.resume a:visited {
+    color: var(--green);
+}
+
+.resume a:hover {
+    color: var(--white);
+}
+
+.resume a:active {
+    color: var(--white);
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    .resume p a {
+        width: 50%;
+    }
 }

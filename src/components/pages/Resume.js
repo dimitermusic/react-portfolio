@@ -3,11 +3,37 @@ import '../../styles/Resume.css'
 
 export default function Resume() {
   return (
-    <div className="page">
-      <h1>Resume</h1>
-      <p>
-        Link to my resume will go here as well as a list of proficiencies.
-      </p>
+    <div className="resume">
+      <h1>
+        Resume
+      </h1>
+      <h4>
+        Proficiencies:
+      </h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>NodeJS</li>
+        <li>ExpressJS</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>ReactJS</li>
+        <li>Bootstrap</li>
+        <li>Npm</li>
+        <li>Github</li>
+        <li>Agile</li>
+        <li>Project Management</li>
+      </ul>
+      <div className="resume-link">
+        <p>
+          <a
+            href="https://drive.google.com/file/d/1cwcsnHhTMlWOk5BMqWJevgqZG5DxZ45j/view?usp=sharing">
+            Click Here
+          </a>
+          {' '}to download my resume.
+        </p>
+      </div>
     </div>
-  ); 
+  );
 }

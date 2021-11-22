@@ -20,21 +20,11 @@
     color: var(--white);
 }
 
-img {
-    margin-top: 33px;
-    width: 300px;
-    height: 300px;
-    border-radius: 2%;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
 .portfolio p {
     margin-top: 33px;
     color: var(--white);
-    text-align: center;
-    width: 50%;
+    text-align: justify;
+    width: 30%;
 }
 
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
