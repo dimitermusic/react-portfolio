@@ -14,7 +14,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="project-row">
         <Project
-          name="Offical Website (HTML/CSS/Javascript"
+          name="Offical Website (HTML/CSS/Javascript)"
           github="https://github.com/dimitermusic/official-website.html"
           deployed="https://www.dimitermusic.com/"
           image={official}
