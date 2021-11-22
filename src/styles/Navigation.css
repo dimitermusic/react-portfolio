@@ -5,13 +5,18 @@
     --white: white;
 }
 
-ul {
+.nav-bar {
     background-color: var(--slate);
+}
+
+ul {
+    border-style: none !important;
 }
 
 li {
     flex: 1 1 50px;
     max-width: 200px;
+    height: 100%;
 }
 
 
@@ -27,6 +32,7 @@ li {
 .active {
     background-color: var(--green) !important;
     color: var(--slate) !important;
+    border-style: none !important;
 }
 
 .active:hover {
