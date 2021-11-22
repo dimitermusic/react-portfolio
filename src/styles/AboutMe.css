@@ -37,7 +37,7 @@ img {
     width: 30%;
 }
 
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
     .about-me p {
     width: 80%;
     }

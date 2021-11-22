@@ -19,13 +19,3 @@
     margin-top: 33px;
     color: var(--white);
 }
-
-Contact {
-    margin: auto;
-}
-
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-    .contact p {
-    width: 80%;
-    }
-}
