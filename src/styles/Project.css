@@ -1,8 +1,8 @@
 .project-card {
-  margin: 33px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 330px;
   height: 247.5px;
 }
