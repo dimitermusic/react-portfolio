@@ -1,24 +1,28 @@
 import React from 'react';
 import '../styles/Project.css'
 
-function Project() {
+function Project(props) {
     return (
         <div className="project-section">
             <div className="project-card">
+                <img
+                src={props.image}
+                alt={props.alt}
+                />
                 <div className="project-label">
                     <div>
-                        <h1>Official Website (HTML/CSS/Javascript)</h1>
+                        <h1>{props.name}</h1>
                     </div>
                     <div className="links">
                         <a
-                        target="_blank"
-                        href="https://github.com/dimitermusic/official-website.html"
+                            target="_blank"
+                            href={props.github}
                         >
                             Github Repository
                         </a>
                         <a
-                        target="_blank"
-                        href="https://www.dimitermusic.com/"
+                            target="_blank"
+                            href={props.deployed}
                         >
                             Deployed Site
                         </a>
