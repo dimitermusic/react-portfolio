@@ -20,7 +20,7 @@
     color: var(--white);
 }
 
-img {
+.about-me img {
     margin-top: 33px;
     width: 300px;
     height: 300px;
