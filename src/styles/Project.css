@@ -65,6 +65,6 @@
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
   .project-label {
-    margin-bottom: 10px;
+    padding-bottom: 5px;
   }
 }
