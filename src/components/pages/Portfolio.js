@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../styles/Portfolio.css'
 import Project from '../Project';
-import official from '../../images/official-website.png'
-import ecommerce from '../../images/ecommerce.png'
-import budget from '../../images/budget-tracker.png'
-import workout from '../../images/workout-tracker.png'
-import bebop from '../../images/bebop.png'
-import workday from '../../images/work-day-2.png'
+import official from '../../images/official-website.webp'
+import ecommerce from '../../images/ecommerce.webp'
+import budget from '../../images/budget-tracker.webp'
+import workout from '../../images/workout-tracker.webp'
+import bebop from '../../images/bebop.webp'
+import workday from '../../images/work-day-2.webp'
 
 export default function Portfolio() {
   return (

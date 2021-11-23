@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/AboutMe.css'
-import dimiterProfile from '../../images/dimiter-profile.png'
+import dimiterProfile from '../../images/dimiter-profile.webp'
 
 export default function AboutMe() {
   return (
