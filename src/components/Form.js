@@ -55,13 +55,19 @@ function Form() {
           // If successful, we want to clear out the input after registration.
           Swal.fire({
             icon: 'success',
-            title: 'Message Sent Successfully'
+            iconColor: '#92cccd',
+            background: "#30343d",
+            title: '<h5 class="alert-text">Message Sent Successfully</h5>',
+            confirmButtonColor: '#92cccd'
           })
         }, (error) => {
           console.log(error.text);
           Swal.fire({
             icon: 'error',
-            title: 'Ooops, something went wrong',
+            iconColor: '#92cccd',
+            background: "#30343d",
+            title: '<p class="alert-text">Oops, something went wrong</p>',
+            confirmButtonColor: '#92cccd',
             text: error.text,
           })
         });
