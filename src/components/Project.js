@@ -4,10 +4,13 @@ import '../styles/Project.css'
 function Project(props) {
     return (
         <div className="project-card">
-            <img
-                src={props.image}
-                alt={props.alt}
-            />
+            <div className="img-container">
+                <img
+                    src={props.image}
+                    alt={props.alt}
+                />
+                <h6>{props.name}</h6>
+            </div>
             <div className="project-label">
                 <div>
                     <h1>{props.name}</h1>
