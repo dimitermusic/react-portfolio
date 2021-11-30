@@ -29,7 +29,7 @@ export default function Resume() {
         <p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1cwcsnHhTMlWOk5BMqWJevgqZG5DxZ45j/view?usp=sharing"
+            href="https://drive.google.com/file/d/1VMOJwObY6hqVxgulrWM4l4Jfo-3diUzT/view?usp=sharing"
             rel="noreferrer"
             >
             Click Here
