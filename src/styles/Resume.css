@@ -20,24 +20,23 @@
     color: var(--white);
 }
 
-.resume h4 {
+.resume h5 {
     margin-top: 33px;
     color: var(--white);
 }
 
+.resume ul {
+    margin-top: 11px;
+}
+
 .resume p {
-    margin-top: 33px;
+    margin-top: 11px;
     color: var(--white);
     text-align: center;
 }
 
 .resume li {
     color: var(--white);
-}
-
-.resume-link p a {
-    margin-top: 33px;
-    text-align: center;
 }
 
 .resume a:link {
