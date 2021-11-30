@@ -21,11 +21,11 @@ export default function Portfolio() {
           alt="dimiter official website"
         />
         <Project
-          name="E-Commerce Backend (NodeJs/ExpressJS)"
-          github="https://github.com/dimitermusic/ecommerce-backend"
-          deployed="https://dy-ecommerce.herokuapp.com/"
-          image={ecommerce}
-          alt="ecommerce backend"
+          name="Bebop Music (MySQL/NodeJS/ExpressJS)"
+          github="https://github.com/deannaboiani/bebop"
+          deployed="https://bebopmusic.herokuapp.com/"
+          image={bebop}
+          alt="bebop music"
         />
         <Project
           name="PWA Budget Tracker (MongoDB/PWA)"
@@ -44,18 +44,18 @@ export default function Portfolio() {
           alt="NoSql Workout Tracker"
         />
         <Project
-          name="Bebop Music (MySQL/NodeJS/ExpressJS)"
-          github="https://github.com/deannaboiani/bebop"
-          deployed="https://bebopmusic.herokuapp.com/"
-          image={bebop}
-          alt="bebop music"
-        />
-        <Project
           name="Weather Dashboard (Javascript/HTML/CSS)"
           github="https://github.com/dimitermusic/weather-dashboard.html"
           deployed="https://dimitermusic.github.io/weather-dashboard.html/"
           image={weather}
           alt="Weather Dashboard"
+        />
+        <Project
+          name="E-Commerce Backend (NodeJs/ExpressJS)"
+          github="https://github.com/dimitermusic/ecommerce-backend"
+          deployed="https://dy-ecommerce.herokuapp.com/"
+          image={ecommerce}
+          alt="ecommerce backend"
         />
       </div>
     </div>
