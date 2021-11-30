@@ -6,7 +6,7 @@ import ecommerce from '../../images/ecommerce.webp'
 import budget from '../../images/budget-tracker.webp'
 import workout from '../../images/workout-tracker.webp'
 import bebop from '../../images/bebop.webp'
-import workday from '../../images/work-day-2.webp'
+import weather from '../../images/weather.webp'
 
 export default function Portfolio() {
   return (
@@ -51,11 +51,11 @@ export default function Portfolio() {
           alt="bebop music"
         />
         <Project
-          name="Work Day Planner (Javascript/HTML/CSS)"
-          github="https://github.com/dimitermusic/work-day-planner.html"
-          deployed="https://dimitermusic.github.io/work-day-planner.html/"
-          image={workday}
-          alt="work day planner"
+          name="Weather Dashboard (Javascript/HTML/CSS)"
+          github="https://github.com/dimitermusic/weather-dashboard.html"
+          deployed="https://dimitermusic.github.io/weather-dashboard.html/"
+          image={weather}
+          alt="Weather Dashboard"
         />
       </div>
     </div>
