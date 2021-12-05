@@ -22,6 +22,7 @@ export default function Resume() {
           <li>Bootstrap</li>
           <li>HTML</li>
           <li>CSS</li>
+          <li>jQuery</li>
           <li>RESTful APIs</li>
           <li>MVC Pattern</li>
           <li>Responsive/Mobile-First Design</li>
