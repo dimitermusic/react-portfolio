@@ -22,7 +22,9 @@
 
 .resume h5 {
     margin-top: 33px;
+    margin-bottom: 33px;
     color: var(--white);
+    text-align: left;
 }
 
 .resume ul {
@@ -53,6 +55,23 @@
 
 .resume a:active {
     color: var(--white);
+}
+
+.prof-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    background-color: var(--slate);
+    padding: 20px;
+}
+
+.prof-col li {
+    color: var(--green)
+}
+
+.resume-link {
+    margin-top: 33px;
 }
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {

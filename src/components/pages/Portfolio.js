@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../styles/Portfolio.css'
+import '../../styles/Portfolio.css';
 import Project from '../Project';
-import official from '../../images/official-website.webp'
-import ecommerce from '../../images/ecommerce.webp'
-import budget from '../../images/budget-tracker.webp'
-import workout from '../../images/workout-tracker.webp'
-import bebop from '../../images/bebop.webp'
-import weather from '../../images/weather.webp'
+import petit from '../../images/petit.webp';
+import blog from '../../images/blog.webp';
+import budget from '../../images/budget-tracker.webp';
+import workout from '../../images/workout-tracker.webp';
+import bebop from '../../images/bebop.webp';
+import weather from '../../images/weather.webp';
 
 export default function Portfolio() {
   return (
@@ -14,11 +14,11 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="project-row">
         <Project
-          name="Offical Website (HTML/CSS/Javascript)"
-          github="https://github.com/dimitermusic/official-website.html"
-          deployed="https://www.dimitermusic.com/"
-          image={official}
-          alt="dimiter official website"
+          name="Petit (React/Node/Express/MySQL/JavaScript)"
+          github="https://github.com/dimitermusic/petit-frontend/"
+          deployed="https://petit-petfriendly.herokuapp.com/"
+          image={petit}
+          alt="petit pet friendly"
         />
         <Project
           name="Bebop Music (MySQL/NodeJS/ExpressJS)"
@@ -51,11 +51,11 @@ export default function Portfolio() {
           alt="Weather Dashboard"
         />
         <Project
-          name="E-Commerce Backend (NodeJs/ExpressJS)"
-          github="https://github.com/dimitermusic/ecommerce-backend"
-          deployed="https://dy-ecommerce.herokuapp.com/"
-          image={ecommerce}
-          alt="ecommerce backend"
+          name="Tech Blog (Handlebars/Node/Express/MySQL)"
+          github="https://github.com/dimitermusic/tech-blog"
+          deployed="https://dimiter-tech-blog.herokuapp.com/"
+          image={blog}
+          alt="tech blog"
         />
       </div>
     </div>

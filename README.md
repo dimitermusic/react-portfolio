@@ -35,7 +35,6 @@ Feedback is always welcome!
 This application is covered under the MIT License
 
 ## Links
-If you have any questions, please visit my Github profile or email me using the links below
 
 [Deployed Site](https://dimiter-portfolio.herokuapp.com/)  
 [Repository](https://github.com/dimitermusic/react-portfolio)

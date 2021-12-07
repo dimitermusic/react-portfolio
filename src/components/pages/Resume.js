@@ -11,27 +11,36 @@ export default function Resume() {
         <h5>
           Proficiencies:
         </h5>
-        <ul>
-          <li>Javascript</li>
-          <li>ReactJS</li>
-          <li>NodeJS</li>
-          <li>ExpressJS</li>
-          <li>Angular</li>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>Bootstrap</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>jQuery</li>
-          <li>RESTful APIs</li>
-          <li>MVC Pattern</li>
-          <li>Responsive/Mobile-First Design</li>
-          <li>Project Management</li>
-          <li>Github</li>
-          <li>Agile</li>
-          <li>SEO</li>
-          <li>Marketing</li>
-        </ul>
+        <div className="prof-col">
+          <div>
+            <ul>
+              <li>Javascript</li>
+              <li>ReactJS</li>
+              <li>NodeJS</li>
+              <li>ExpressJS</li>
+              <li>Angular</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>GraphQL</li>
+              <li>Bootstrap</li>
+              <li>HTML</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>CSS</li>
+              <li>jQuery</li>
+              <li>RESTful APIs</li>
+              <li>MVC Pattern</li>
+              <li>Responsive/Mobile-First Design</li>
+              <li>Project Management</li>
+              <li>Github</li>
+              <li>Agile</li>
+              <li>SEO</li>
+              <li>Marketing</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div className="resume-link">
         <p>
