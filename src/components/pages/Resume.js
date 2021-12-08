@@ -14,30 +14,32 @@ export default function Resume() {
         <div className="prof-col">
           <div>
             <ul>
-              <li>Javascript</li>
               <li>ReactJS</li>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>NodeJS</li>
               <li>ExpressJS</li>
-              <li>Angular</li>
+              <li>Bootstrap</li>
+              <li>Handlebars</li>
               <li>MySQL</li>
               <li>MongoDB</li>
               <li>GraphQL</li>
-              <li>Bootstrap</li>
-              <li>HTML</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>CSS</li>
               <li>jQuery</li>
+              <li>Angular</li>
               <li>RESTful APIs</li>
               <li>MVC Pattern</li>
+              <li>Object-relational Mapping</li>
               <li>Responsive/Mobile-First Design</li>
+              <li>Agile Methodologies</li>
               <li>Project Management</li>
-              <li>Github</li>
-              <li>Agile</li>
-              <li>SEO</li>
-              <li>Marketing</li>
+              <li>Affable Team Player</li>
+              <li>Professional Demeanor</li>
+              <li>Creative Visionary</li>
             </ul>
           </div>
         </div>
