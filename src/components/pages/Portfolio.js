@@ -37,7 +37,7 @@ export default function Portfolio() {
       </div>
       <div className="project-row">
         <Project
-          name="NoSql Workout Tracker (MongoDB/IndexedDB)"
+          name="NoSQL Workout Tracker (MongoDB/IndexedDB)"
           github="https://github.com/dimitermusic/nosql-workout-tracker"
           deployed="https://dimiter-workout-tracker.herokuapp.com/"
           image={workout}
