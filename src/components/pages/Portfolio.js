@@ -22,7 +22,7 @@ export default function Portfolio() {
         />
         <Project
           name="Bebop Music (MySQL/NodeJS/ExpressJS)"
-          github="https://github.com/deannaboiani/bebop"
+          github="https://github.com/dimitermusic/bebop"
           deployed="https://bebopmusic.herokuapp.com/"
           image={bebop}
           alt="bebop music"
