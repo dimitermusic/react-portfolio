@@ -28,7 +28,7 @@ export default function Portfolio() {
           alt="bebop music"
         />
         <Project
-          name="PWA Budget Tracker (MongoDB/PWA)"
+          name="Budget Tracker (Javascript/Node//PWA)"
           github="https://github.com/dimitermusic/pwa-budget-tracker"
           deployed="https://dimiter-budget-tracker.herokuapp.com/"
           image={budget}
@@ -37,7 +37,7 @@ export default function Portfolio() {
       </div>
       <div className="project-row">
         <Project
-          name="NoSQL Workout Tracker (MongoDB/IndexedDB)"
+          name="Workout Tracker (Javascript/Node/MongoDB)"
           github="https://github.com/dimitermusic/nosql-workout-tracker"
           deployed="https://dimiter-workout-tracker.herokuapp.com/"
           image={workout}

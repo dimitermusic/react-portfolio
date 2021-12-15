@@ -5,11 +5,17 @@ function Project(props) {
     return (
         <div className="project-card">
             <div className="img-container">
-                <img
-                    src={props.image}
-                    alt={props.alt}
-                />
-                <h6>{props.name}</h6>
+                <a
+                    target="_blank"
+                    href={props.github}
+                    rel="noreferrer"
+                >
+                    <img
+                        src={props.image}
+                        alt={props.alt}
+                    />
+                    <h6>{props.name}</h6>
+                </a>
             </div>
             <div className="project-label">
                 <div>

@@ -1,10 +1,10 @@
 .project-card {
-  margin: 33px 20px 20px;
+  margin: 33px 10px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 330px;
-  height: 247.5px;
+  height: 200px;
 }
 
 .project-card:hover {
@@ -19,18 +19,18 @@
   object-fit: cover;
   object-position: top;
   width: 330px;
-  height: 132px;
+  height: 121px;
 }
 
-.img-container h6{
+.img-container h6 {
   display: none;
 }
 
-.img-container:hover img{
+.img-container:hover img {
   opacity: 0.3;
 }
 
-.img-container:hover h6{
+.img-container:hover h6 {
   cursor: default;
   display: block;
 }
@@ -39,15 +39,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
+  height: 100px;
   background-color: var(--slate);
 }
 
 .project-label h1 {
   font-size: 14px;
   color: var(--green);
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .img-container h6 {
@@ -93,4 +94,8 @@
 .links a:hover {
   background-color: var(--white);
   color: var(--slate);
+}
+
+.img-container h6:hover {
+  cursor: pointer;
 }

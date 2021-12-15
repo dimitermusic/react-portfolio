@@ -22,11 +22,10 @@
 
 .about-me img {
     margin-top: 33px;
-    width: 300px;
-    height: 300px;
+    width: 45%;
+    height: 210px;
     border-radius: 2%;
     max-width: 100%;
-    height: auto;
     object-fit: cover;
 }
 
@@ -35,7 +34,7 @@
     margin-bottom: 33px;
     color: var(--white);
     text-align: justify;
-    width: 30%;
+    width: 45%;
 }
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
