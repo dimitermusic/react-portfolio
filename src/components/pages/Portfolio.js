@@ -28,7 +28,7 @@ export default function Portfolio() {
           alt="bebop music"
         />
         <Project
-          name="Budget Tracker (Javascript/Node//PWA)"
+          name="Budget Tracker (Javascript/Node/PWA)"
           github="https://github.com/dimitermusic/pwa-budget-tracker"
           deployed="https://dimiter-budget-tracker.herokuapp.com/"
           image={budget}

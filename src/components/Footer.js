@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css'
-import { FaLinkedin, FaGithub, FaSpotify, FaInstagram, FaImdb, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 
 function Footer() {
@@ -32,6 +32,15 @@ function Footer() {
         >
           <div>
             <FaInstagram />
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="mailto:dimitermusic@gmail.com"
+          rel="noreferrer"
+        >
+          <div>
+            <FaEnvelope />
           </div>
         </a>
       </div>

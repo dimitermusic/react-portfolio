@@ -24,6 +24,23 @@
     color: var(--white);
 }
 
+.email {
+    margin-top: 47px;
+}
+
+.email a {
+    color: var(--green) !important;
+}
+
+.email a:hover {
+    color: var(--white) !important;
+}
+
+.email-icon {
+    margin-right: 10px;
+    color: var(--white);
+}
+
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
     .form {
         width: 80%;
