@@ -23,7 +23,7 @@
 .about-me img {
     margin-top: 33px;
     width: 45%;
-    height: 210px;
+    height: 300px;
     max-width: 100%;
     object-fit: cover;
 }
@@ -39,5 +39,9 @@
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
     .about-me p {
         width: 80%;
+    }
+
+    .about-me img {
+        height: 200px;
     }
 }
