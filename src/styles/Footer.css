@@ -12,6 +12,7 @@
     background-color: var(--slate);
     height: 10vh;
     padding-bottom: 33px;
+    padding-top: 20px;
 }
 
 .icons a {
@@ -25,4 +26,3 @@
 .icons a:hover {
     color: var(--white);
 }
-

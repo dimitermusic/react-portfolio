@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+.nav button {
+    border: none !important;
+}
+
 .nav-bar h1 {
     color: var(--green);
     display: flex;
