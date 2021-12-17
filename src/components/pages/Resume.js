@@ -48,7 +48,7 @@ export default function Resume() {
         <p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1VMOJwObY6hqVxgulrWM4l4Jfo-3diUzT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OPjdF9ivqicTkfwL00KAz8izl7SdCVly/view?usp=sharing"
             rel="noreferrer"
           >
             Click Here
