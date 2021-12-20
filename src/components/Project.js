@@ -20,6 +20,7 @@ function Project(props) {
             <div className="project-label">
                 <div>
                     <h1>{props.name}</h1>
+                    <p>{props.desc}</p>
                 </div>
                 <div className="links">
                     <a
