@@ -25,7 +25,7 @@ export default function Portfolio() {
           name="Bebop Music (MySQL/NodeJS/JavaScript)"
           desc="App that utilizes MySQL, the MVC design pattern, and REST APIs to deliver a social networking tool that brings live music lovers together."
           github="https://github.com/dimitermusic/bebop"
-          deployed="https://bebop-music.herokuapp.com/"
+          deployed="https://bebopmusic.herokuapp.com/"
           image={bebop}
           alt="bebop music"
         />
