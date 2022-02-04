@@ -30,7 +30,7 @@ export default function Portfolio() {
           alt="bebop music"
         />
         <Project
-          name="Dimiitermusic.com (Javascript/HTML/CSS)"
+          name="www.dimitermusic.com (Javascript/HTML/CSS)"
           desc="Official website for award-winning Netflix, Hulu, Prime Video, and NEON music composer and recording artist, including latest releases, film and tv work, upcoming concert dates, and social media links."
           github="https://github.com/dimitermusic/official-website.html"
           deployed="https://www.dimitermusic.com/"
