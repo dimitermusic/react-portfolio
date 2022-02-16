@@ -1,4 +1,5 @@
 .project-card {
+  background: black;
   margin: 33px 33px 33px;
   display: flex;
   flex-direction: column;
@@ -9,23 +10,22 @@
   height: 330px;
 }
 
-.project-card:hover {
-  background-color: black;
-}
-
 .img-container {
   position: relative;
 }
 
 .img-container img {
+  opacity: 1;
   object-fit: cover;
   object-position: top;
   width: 330px;
   height: 150px;
+  transition: all .3s ease-in-out;
 }
 
 .img-container h6 {
-  display: none;
+  opacity: 0;
+  transition: all .3s ease-in-out;
 }
 
 .img-container:hover img {
@@ -34,7 +34,7 @@
 
 .img-container:hover h6 {
   cursor: default;
-  display: block;
+  opacity: 1;
 }
 
 .project-label {
@@ -47,6 +47,7 @@
   height: 200px;
   background-color: var(--slate);
   padding: 10px;
+  transition: all 3s ease-in-out;
 }
 
 .project-label h1 {
@@ -87,6 +88,7 @@
   background-color: var(--green);
   color: var(--slate);
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .links a:link {

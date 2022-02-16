@@ -2,47 +2,25 @@ import React from 'react';
 import '../../styles/Resume.css'
 
 export default function Resume() {
+
+  const skillsArr = ["React.js", "JavaScript", "HTML", "CSS", "Node.js", "Express.js", "Bootstrap", "Handlebars.js", "MySQL", "MongoDB", "GraphQL", "jQuery", "Angular", "RESTful APIs", "MVC Pattern", "Object-relational Mapping", "Responsive/Mobile-First Design", "Agile Methodologies", "Project Management", "Affable Team Player", "Professional Demeanor", "Creative Visionary"]
+
+  const skillsList = skillsArr.map((skill, index) =>
+    <li key={index}>{skill}</li>
+  )
+
   return (
     <div className="resume">
       <h1>
         Resume
       </h1>
-      <div className="resProf">
-        <h5>
-          Proficiencies:
-        </h5>
-        <div className="prof-col">
-          <div>
-            <ul>
-              <li>ReactJS</li>
-              <li>Javascript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>NodeJS</li>
-              <li>ExpressJS</li>
-              <li>Bootstrap</li>
-              <li>Handlebars</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>GraphQL</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>jQuery</li>
-              <li>Angular</li>
-              <li>RESTful APIs</li>
-              <li>MVC Pattern</li>
-              <li>Object-relational Mapping</li>
-              <li>Responsive/Mobile-First Design</li>
-              <li>Agile Methodologies</li>
-              <li>Project Management</li>
-              <li>Affable Team Player</li>
-              <li>Professional Demeanor</li>
-              <li>Creative Visionary</li>
-            </ul>
-          </div>
-        </div>
+      <h6>
+        Proficiencies:
+      </h6>
+      <div className="proficiencies">
+        <ul>
+          {skillsList}
+        </ul>
       </div>
       <div className="resume-link">
         <p>

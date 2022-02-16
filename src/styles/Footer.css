@@ -21,6 +21,7 @@
     margin-right: 10px;
     font-size: 20px;
     color: var(--green);
+    transition: all 0.3s ease-out;
 }
 
 .icons a:hover {

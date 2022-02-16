@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --slate: #30343d;
     --green: #92cccd;
@@ -13,6 +17,7 @@
     background-color: var(--blue);
     width: 100%;
     min-height: 75vh;
+    transition: all 0.3s ease-out;
 }
 
 .resume h1 {
@@ -20,9 +25,8 @@
     color: var(--white);
 }
 
-.resume h5 {
+.resume h6 {
     margin-top: 33px;
-    margin-bottom: 33px;
     color: var(--white);
     text-align: left;
 }
@@ -41,6 +45,10 @@
     color: var(--white);
 }
 
+.resume a {
+    transition: all 0.3s ease-out;
+}
+
 .resume a:link {
     color: var(--green);
 }
@@ -57,17 +65,21 @@
     color: var(--white);
 }
 
-.prof-col {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-evenly;
-    background-color: var(--slate);
+.proficiencies {
     padding: 20px;
+    width: 30em;
+    background-color: var(--slate);
 }
 
-.prof-col li {
-    color: var(--green)
+.proficiencies ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 280px;
+}
+
+.proficiencies li {
+    color: var(--green);
 }
 
 .resume-link {
@@ -75,7 +87,16 @@
 }
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
+
     .resume p a {
         width: 50%;
+    }
+
+    .proficiencies {
+        width: 20em;
+    }
+
+    .proficiencies ul {
+        max-height: 100%;
     }
 }
