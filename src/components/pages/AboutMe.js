@@ -10,7 +10,7 @@ export default function AboutMe() {
       </h1>
       <img src={dimiterProfile} alt="dimiter yordanov" />
       <p>
-        Full Stack Web Developer with strong storytelling and problem-solving abilities. Notable history embodying the essence of stories and visuals, creating music for Netflix, Hulu, Prime Video, NEON, and more. Eager to offer my unique perspective and extensive experience in Film and TV, Communications, Team Management, and Web Development by joining and collaborating with a diverse and passionate team of engineers in order to learn and grow as a Web Developer, making an impact in the world of user experience.
+        Passionate Full Stack Software Engineer with unparalleled learning and storytelling abilities. Recently graduated with a certificate from University of Washington’s Coding Bootcamp where I gained invaluable insight and proficiency in JavaScript, Node.js, React.js, MySQL, GraphQL, REST APIs, Git, Agile Methodologies and much more. Notable history creating music for Netflix, Hulu, Prime Video, NEON, and others. Eager to leverage my unique perspective and extensive experience in Film and TV, Communications, Team Management, and Software Engineering by joining and collaborating with a diverse team of passionate engineers in order to learn, grow, and make a positive impact in the world of user experience.
       </p>
     </div>
   );
