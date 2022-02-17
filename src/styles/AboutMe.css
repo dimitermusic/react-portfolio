@@ -3,6 +3,7 @@
     --green: #92cccd;
     --blue: #455875;
     --white: white;
+    background-color: var(--slate);
 }
 
 .about-me {
