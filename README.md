@@ -14,7 +14,7 @@ My personal portfolio including a brief bio, portfolio demonstrating my dev prof
   - [Questions](#questions)
 
 ## Installation
-Visit the deployed site [here!](https://dimiter-portfolio.herokuapp.com/)
+Visit the deployed site [here!](https://dimiter-portfolio.netlify.app/)
 
 ## Usage
 Home page set to an "About Me" section including my latest photo and a brief bio.  
@@ -36,7 +36,7 @@ This application is covered under the MIT License
 
 ## Links
 
-[Deployed Site](https://dimiter-portfolio.herokuapp.com/)  
+[Deployed Site](https://dimiter-portfolio.netlify.app/)  
 [Repository](https://github.com/dimitermusic/react-portfolio)
 
 ## Questions
