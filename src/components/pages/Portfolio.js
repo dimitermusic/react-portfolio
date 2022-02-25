@@ -14,7 +14,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="project-row">
         <Project
-          name="Petit (React/Node/Express/MySQL/JavaScript)"
+          name="Petit (React.js/Node.js/Express.js/MySQL/)"
           desc="Full stack social networking app allowing users to inform each other on the pet-friendliness of employers and establishments using MySQL, React, and Node."
           github="https://github.com/dimitermusic/petit-frontend/"
           deployed="https://petit-petfriendly.herokuapp.com/"
@@ -22,7 +22,7 @@ export default function Portfolio() {
           alt="petit pet friendly"
         />
         <Project
-          name="Bebop Music (MySQL/NodeJS/JavaScript)"
+          name="Bebop Music (Handlebars/Node.js/Express.js/MySQL)"
           desc="App that utilizes MySQL, the MVC design pattern, and REST APIs to deliver a social networking tool that brings live music lovers together."
           github="https://github.com/dimitermusic/bebop"
           deployed="https://bebopmusic.herokuapp.com/"
@@ -30,7 +30,7 @@ export default function Portfolio() {
           alt="bebop music"
         />
         <Project
-          name="www.dimitermusic.com (Javascript/HTML/CSS)"
+          name="www.dimitermusic.com (HTML/CSS/JavaScript)"
           desc="Official website for award-winning Netflix, Hulu, Prime Video, and NEON music composer and recording artist, including latest releases, film and tv work, upcoming concert dates, and social media links."
           github="https://github.com/dimitermusic/official-website.html"
           deployed="https://www.dimitermusic.com/"
@@ -40,7 +40,7 @@ export default function Portfolio() {
       </div>
       <div className="project-row">
         <Project
-          name="Workout Tracker (Javascript/Node/MongoDB)"
+          name="Workout Tracker (Bootstrap/Node.js/Express.js/MongoDB)"
           desc="Simple workout tracking app that utilizes MongoDB, Mongoose, Node and JavaScript."
           github="https://github.com/dimitermusic/nosql-workout-tracker"
           deployed="https://dimiter-workout-tracker.herokuapp.com/"
@@ -48,7 +48,7 @@ export default function Portfolio() {
           alt="Workout Tracker"
         />
         <Project
-          name="Weather Dashboard (Javascript/HTML/CSS)"
+          name="Weather Dashboard (HTML/CSS/JavaScript)"
           desc="Single-page weather forecast app built with Bootstrap, Javascript, CSS, HTML, and third-party APIs."
           github="https://github.com/dimitermusic/weather-dashboard.html"
           deployed="https://dimitermusic.github.io/weather-dashboard.html/"
@@ -56,7 +56,7 @@ export default function Portfolio() {
           alt="Weather Dashboard"
         />
         <Project
-          name="Tech Blog (Handlebars/Node/Express/MySQL)"
+          name="Tech Blog (Handlebars/Node.js/Express.js/MySQL)"
           desc="Full stack blogging application with MySQL database, Node/Express server, and Handlebars views."
           github="https://github.com/dimitermusic/tech-blog"
           deployed="https://dimiter-tech-blog.herokuapp.com/"
