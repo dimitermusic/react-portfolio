@@ -15,7 +15,7 @@ export default function Portfolio() {
         <Project
           name="Concert API (Node.js/Express.js/JavaScript/MySQL)"
           desc="A simple API built with a Node.js/Express.js server and MySQL database that is used to manage my concerts!"
-          github="https://github.com/dimitermusic/official-website.html"
+          github="https://github.com/dimitermusic/concert-api"
           deployed="https://concert-api-5i4uylvzdq-wl.a.run.app/"
           image={concert}
           alt="dimiter concert api"
