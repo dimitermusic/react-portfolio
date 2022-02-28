@@ -1,12 +1,11 @@
 import React from 'react';
 import '../../styles/Portfolio.css';
 import Project from '../Project';
-import petit from '../../images/petit.webp';
-import blog from '../../images/blog.webp';
+import concert from '../../images/concert.webp';
 import official from '../../images/official-website.webp';
 import workout from '../../images/workout-tracker.webp';
-import bebop from '../../images/bebop.webp';
 import weather from '../../images/weather.webp';
+import blog from '../../images/blog.webp';
 
 export default function Portfolio() {
   return (
@@ -14,31 +13,21 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="project-row">
         <Project
-          name="Petit (React.js/Node.js/Express.js/MySQL/)"
-          desc="Full stack social networking app allowing users to inform each other on the pet-friendliness of employers and establishments using MySQL, React, and Node."
-          github="https://github.com/dimitermusic/petit-frontend/"
-          deployed="https://petit-petfriendly.herokuapp.com/"
-          image={petit}
-          alt="petit pet friendly"
-        />
-        <Project
-          name="Bebop Music (Handlebars/Node.js/Express.js/MySQL)"
-          desc="App that utilizes MySQL, the MVC design pattern, and REST APIs to deliver a social networking tool that brings live music lovers together."
-          github="https://github.com/dimitermusic/bebop"
-          deployed="https://bebopmusic.herokuapp.com/"
-          image={bebop}
-          alt="bebop music"
+          name="Concert API (Node.js/Express.js/JavaScript/MySQL)"
+          desc="A simple API built with a Node.js/Express.js server and MySQL database that is used to manage my concerts!"
+          github="https://github.com/dimitermusic/official-website.html"
+          deployed="https://concert-api-5i4uylvzdq-wl.a.run.app/"
+          image={concert}
+          alt="dimiter concert api"
         />
         <Project
           name="www.dimitermusic.com (HTML/CSS/JavaScript)"
-          desc="Official website for award-winning Netflix, Hulu, Prime Video, and NEON music composer and recording artist, including latest releases, film and tv work, upcoming concert dates, and social media links."
+          desc="Official website for my music includng social links, new releases, and custom JavaScript components for concerts, newsletter, and footer."
           github="https://github.com/dimitermusic/official-website.html"
           deployed="https://www.dimitermusic.com/"
           image={official}
           alt="dimiter music official site"
         />
-      </div>
-      <div className="project-row">
         <Project
           name="Workout Tracker (Bootstrap/Node.js/Express.js/MongoDB)"
           desc="Simple workout tracking app that utilizes MongoDB, Mongoose, Node and JavaScript."
@@ -47,6 +36,8 @@ export default function Portfolio() {
           image={workout}
           alt="Workout Tracker"
         />
+      </div>
+      <div className="project-row">
         <Project
           name="Weather Dashboard (HTML/CSS/JavaScript)"
           desc="Single-page weather forecast app built with Bootstrap, Javascript, CSS, HTML, and third-party APIs."
