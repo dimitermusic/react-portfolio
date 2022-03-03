@@ -30,7 +30,7 @@
 
 .email a {
     color: var(--green) !important;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .email a:hover {

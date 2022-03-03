@@ -20,12 +20,12 @@
   object-position: top;
   width: 330px;
   height: 150px;
-  transition: all .3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .img-container h6 {
   opacity: 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .img-container:hover img {

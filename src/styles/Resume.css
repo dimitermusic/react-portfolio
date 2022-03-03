@@ -17,7 +17,7 @@
     background-color: var(--blue);
     width: 100%;
     min-height: 75vh;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .resume h1 {
@@ -46,7 +46,7 @@
 }
 
 .resume a {
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .resume a:link {

@@ -35,7 +35,7 @@
 .nav-link {
     background-color: var(--slate) !important;
     color: var(--green) !important;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav-link:hover {
@@ -46,7 +46,7 @@
     background-color: var(--green) !important;
     color: var(--slate) !important;
     border-style: none !important;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .active:hover {
