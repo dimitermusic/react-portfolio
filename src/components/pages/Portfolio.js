@@ -33,7 +33,7 @@ export default function Portfolio() {
           name="Roman Numeral Converter (JavaScript/CSS/HTML)"
           desc="Simple and clean Roman Numeral converter app with switchable and automatically scheduled dark mode."
           github="https://github.com/dimitermusic/roman-numeral-converter.html"
-          deployed="https://dimitermusic.github.io/roman-numeral-converter.html"
+          deployed="https://romnum.netlify.app"
           image={roman}
           alt="roman numeral converter"
         />
