@@ -22,9 +22,9 @@ export default function Portfolio() {
           alt="dimiter concert api"
         />
         <Project
-          name="www.dimitermusic.com (JavaScript/CSS/HTML)"
+          name="www.dimitermusic.com (React.js/JavaScript/CSS)"
           desc="My official music website with socials, news, and dynamically rendered concerts, newsletter, and footer."
-          github="https://github.com/dimitermusic/official-website.html"
+          github="https://github.com/dimitermusic/official-website-react"
           deployed="https://www.dimitermusic.com"
           image={official}
           alt="dimiter music official site"
