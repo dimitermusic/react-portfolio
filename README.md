@@ -1,7 +1,7 @@
 # Dimiter Yordanov's React Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-My personal portfolio including a brief bio, portfolio demonstrating my dev proficiencies, contact form, and resume, all built using React.
+My personal portfolio including a brief bio, portfolio, contact form, and resume, all built using React.js.
 
 ## Table of Contents
   - [Description](#description)
