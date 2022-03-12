@@ -14,7 +14,7 @@ My personal portfolio including a brief bio, portfolio demonstrating my dev prof
   - [Questions](#questions)
 
 ## Installation
-Visit the deployed site [here!](https://dimiter-portfolio.netlify.app/)
+Visit the deployed site [here!](https://portfolio.dimitermusic.com)
 
 ## Usage
 Home page set to an "About Me" section including my latest photo and a brief bio.  
