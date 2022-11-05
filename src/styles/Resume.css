@@ -25,24 +25,16 @@
     color: var(--white);
 }
 
-.resume h6 {
+.resume h5 {
     margin-top: 33px;
     color: var(--white);
     text-align: left;
-}
-
-.resume ul {
-    margin-top: 11px;
 }
 
 .resume p {
     margin-top: 11px;
     color: var(--white);
     text-align: center;
-}
-
-.resume li {
-    color: var(--white);
 }
 
 .resume a {
@@ -65,38 +57,28 @@
     color: var(--white);
 }
 
-.proficiencies {
-    padding: 20px;
-    width: 30em;
-    background-color: var(--slate);
-}
-
-.proficiencies ul {
+.skills {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    max-height: 280px;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
 }
 
-.proficiencies li {
-    color: var(--green);
+.skills p {
+    text-align: justify;
 }
 
 .resume-link {
-    margin-top: 33px;
+    margin: 20px 0 10px 0;
 }
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
-
     .resume p a {
         width: 50%;
     }
 
-    .proficiencies {
+    .skills {
         width: 20em;
-    }
-
-    .proficiencies ul {
-        max-height: 100%;
     }
 }
