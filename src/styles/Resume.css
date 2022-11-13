@@ -1,84 +1,82 @@
-* {
-    box-sizing: border-box;
-}
-
 :root {
-    --slate: #30343d;
-    --green: #92cccd;
-    --blue: #455875;
-    --white: white;
+  --slate: #30343d;
+  --green: #92cccd;
+  --blue: #455875;
+  --white: white;
 }
 
 .resume {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: var(--blue);
-    width: 100%;
-    min-height: 75vh;
-    transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--blue);
+  min-height: 75vh;
+  transition: all 0.2s ease-in-out;
 }
 
 .resume h1 {
-    margin-top: 33px;
-    color: var(--white);
+  margin-top: 33px;
+  color: var(--white);
 }
 
 .resume h5 {
-    margin-top: 33px;
-    color: var(--white);
-    text-align: left;
+  margin-top: 33px;
+  color: var(--white);
+  text-align: left;
 }
 
 .resume p {
-    margin-top: 11px;
-    color: var(--white);
-    text-align: center;
+  margin-top: 11px;
+  color: var(--white);
+  text-align: center;
+  font-size: larger;
 }
 
 .resume a {
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .resume a:link {
-    color: var(--green);
+  color: var(--green);
 }
 
 .resume a:visited {
-    color: var(--green);
+  color: var(--green);
 }
 
 .resume a:hover {
-    color: var(--white);
+  color: var(--white);
 }
 
 .resume a:active {
-    color: var(--white);
+  color: var(--white);
 }
 
 .skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
 }
 
 .skills p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .resume-link {
-    margin: 20px 0 10px 0;
+  margin: 20px 0 10px 0;
 }
 
-@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
-    .resume p a {
-        width: 50%;
-    }
+@media only screen and (max-width: 1200px) {
+  .skills {
+    width: 80%;
+  }
+}
 
-    .skills {
-        width: 20em;
-    }
+@media only screen and (max-height: 1200px) {
+  .resume p {
+    font-size: medium;
+  }
 }

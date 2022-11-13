@@ -1,29 +1,29 @@
 :root {
-    --slate: #30343d;
-    --green: #92cccd;
-    --blue: #455875;
-    --white: white;
+  --slate: #30343d;
+  --green: #92cccd;
+  --blue: #455875;
+  --white: white;
 }
 
 .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--slate);
-    height: 10vh;
-    padding-bottom: 33px;
-    padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--slate);
+  height: 10vh;
+  padding-bottom: 33px;
+  padding-top: 20px;
 }
 
 .icons a {
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    color: var(--green);
-    transition: all 0.2s ease-in-out;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: var(--green);
+  transition: all 0.2s ease-in-out;
 }
 
 .icons a:hover {
-    color: var(--white);
+  color: var(--white);
 }

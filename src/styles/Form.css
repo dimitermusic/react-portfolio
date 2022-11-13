@@ -56,3 +56,9 @@
 .alert-text {
   color: var(--green);
 }
+
+@media only screen and (max-width: 1200px) {
+  .form {
+    width: 80%;
+  }
+}

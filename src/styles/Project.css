@@ -111,3 +111,15 @@
 .img-container h6:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1200px) {
+  .project-card {
+    width: 80%;
+    height: auto;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: auto;
+  }
+}
