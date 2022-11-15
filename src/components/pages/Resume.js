@@ -8,13 +8,14 @@ export default function Resume() {
       <div className='skills'>
         <h5>Proficiencies:</h5>
         <p>
-          Extensive experience and deep understanding of React, Typescript,
+          Extensive experience with and deep understanding of React, Typescript,
           Node, Python, MySQL, MongoDB, Git, AWS, Jira, Test Driven Development,
-          Agile Methodologies. Impressive pedigree of delivering products and
-          features to Fortune 50 enterprise business customers with 90%-100%
-          unit test coverage on-time and up to two weeks ahead of timeline.
-          Other skills include Java, NoSQL, REST API Best Practices, HTML, CSS,
-          Docker, Nomad, Jenkins, CI/CD Pipeline, Splunk, VictorOps.
+          Agile Methodologies and other technologies. Impressive pedigree of
+          delivering products and features to Fortune 50 enterprise business
+          customers with 90%-100% unit test coverage on-time and up to two weeks
+          ahead of timeline. Other skills include Java, NoSQL, REST API Best
+          Practices, HTML, CSS, Docker, Nomad, Jenkins, CI/CD Pipeline, Splunk,
+          VictorOps.
         </p>
       </div>
       <div className='skills'>
@@ -35,8 +36,7 @@ export default function Resume() {
             rel='noreferrer'
           >
             Click Here
-          </a>
-          {' '}
+          </a>{' '}
           to view and download my resume.
         </p>
       </div>
