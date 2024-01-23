@@ -13,10 +13,10 @@ export default function Contact() {
           <FaEnvelope className="email-icon" />
           <a
             target="_blank"
-            href="mailto:info@dimitermusic.com"
+            href="mailto:dimitermusic@gmail.com"
             rel="noreferrer"
           >
-            info@dimitermusic.com
+            dimitermusic@gmail.com
           </a>
         </p>
       </div>

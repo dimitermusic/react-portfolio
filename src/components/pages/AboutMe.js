@@ -8,15 +8,9 @@ export default function AboutMe() {
       <h1>About Me</h1>
       <img src={dimiterProfile} alt='dimiter yordanov' />
       <p>
-        Passionate and curious Full Stack Software Engineer with unparalleled
-        learning and storytelling abilities, currently working at Qualtrics.
-        Notable history creating music for Netflix, Hulu, Prime Video, NEON, and
-        others. I am driven by growth and discovery and always eager to leverage
-        my unique perspective and extensive experience in Film and TV,
-        Communications, Team Management, and most recently Software Engineering
-        by joining a team of passionate engineers who are devoted to solving
-        real business problems, closing gaps, and making substantial, positive
-        impacts in the world of human experience.
+        Passionate and curious person with keen
+        learning and storytelling abilities that have been recognized by c-suite leadership, currently working as an Associate Software Engineer at Qualtrics.
+        I have a notable history creating award-winning music for Netflix, Hulu, Prime Video, and other platforms. At the core, I am most driven by growth and discovery and the little details that make experiences memorable.
       </p>
     </div>
   );

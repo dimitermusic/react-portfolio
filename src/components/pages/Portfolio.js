@@ -11,20 +11,20 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="project-row">
         <Project
-          name="Concert API (MySQL/Node.js/Express.js/JavaScript)"
-          desc="A simple API built with a Node.js/Express.js server and MySQL database that is used to manage my concerts!"
-          github="https://github.com/dimitermusic/concert-api"
-          deployed="https://api.dimitermusic.com"
-          image={concert}
-          alt="dimiter concert api"
-        />
-        <Project
           name="www.dimitermusic.com (React.js/JavaScript/CSS)"
           desc="My official music website with socials, news, and dynamically rendered concerts, newsletter, and footer."
           github="https://github.com/dimitermusic/official-website-react"
           deployed="https://www.dimitermusic.com"
           image={official}
           alt="dimiter music official site"
+        />
+        <Project
+          name="Concert API (MySQL/Node.js/Express.js/JavaScript)"
+          desc="A simple API built with a Node.js/Express.js server and MySQL database that is used to manage my concerts!"
+          github="https://github.com/dimitermusic/concert-api"
+          deployed="https://api.dimitermusic.com"
+          image={concert}
+          alt="dimiter concert api"
         />
         <Project
           name="Roman Numeral Converter (JavaScript/CSS/HTML)"

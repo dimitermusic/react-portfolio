@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "dimiter-face-192.png",
+      "src": "dimiter-face-192.webp",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "dimiter-face-512.png",
+      "src": "dimiter-face-512.webp",
       "type": "image/png",
       "sizes": "512x512"
     }

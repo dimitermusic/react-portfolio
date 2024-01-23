@@ -8,14 +8,7 @@ export default function Resume() {
       <div className='skills'>
         <h5>Proficiencies:</h5>
         <p>
-          Extensive experience with and deep understanding of React, Typescript,
-          Node, Python, MySQL, MongoDB, Git, AWS, Jira, Test Driven Development,
-          Agile Methodologies and other technologies. Impressive pedigree of
-          delivering products and features to Fortune 50 enterprise business
-          customers with 90%-100% unit test coverage on-time and up to two weeks
-          ahead of timeline. Other skills include Java, NoSQL, REST API Best
-          Practices, HTML, CSS, Docker, Nomad, Jenkins, CI/CD Pipeline, Splunk,
-          VictorOps.
+          Extensive experience in application security, team leadership, software design, and maintenance of complex legacy systems processing millions of sensitive records safely. My technical proficiency spans a range of technologies and methodologies, including React, TypeScript, Node.js, Python, MySQL, MongoDB, Git, AWS, Jira, Test Driven Development (TDD), and Agile practices. I have a proven track record in delivering products and features to Fortune 50 enterprises, consistently meeting deadlines and often completing projects up to two weeks ahead of schedule. I spearheaded a comprehensive overhaul of our organization's security operations. This initiative involved personally designing, building, testing, and launching an innovative automation solution. The project was part of a broader strategy to address existing gaps in the workload and timeline management of our application security remediations.
         </p>
       </div>
       <div className='skills'>
@@ -32,7 +25,7 @@ export default function Resume() {
         <p>
           <a
             target='_blank'
-            href='https://drive.google.com/file/d/11gibUW3GNGG97NloVX6c3avDwi-2lfCU/view?usp=sharing'
+            href='https://drive.google.com/file/d/1zF_lNw_gk0D5YwerTom6BLdhBx_vjF25/view?usp=sharing'
             rel='noreferrer'
           >
             Click Here
