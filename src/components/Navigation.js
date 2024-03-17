@@ -36,7 +36,7 @@ function Navigation({ currentPage, handlePageChange, }) {
             Contact Me
           </button>
         </li>
-        <li>
+        {/* <li>
           <button
             onClick={() => { handlePageChange('Resume') }}
             // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -44,7 +44,7 @@ function Navigation({ currentPage, handlePageChange, }) {
           >
             Resume
           </button>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

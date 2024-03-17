@@ -8,9 +8,13 @@ export default function AboutMe() {
       <h1>About Me</h1>
       <img src={dimiterProfile} alt='dimiter yordanov' />
       <p>
-        Passionate and curious person with keen
-        learning and storytelling abilities that have been recognized by c-suite leadership, currently working as an Associate Software Engineer at Qualtrics.
-        I have a notable history creating award-winning music for Netflix, Hulu, Prime Video, and other platforms. At the core, I am most driven by growth and discovery and the little details that make experiences memorable.
+      I am a singer/songwriter and film and TV music composer based in Seattle, known for creating the entire original score for both seasons of Netflix docu-series, 'The Kindness Diaries', most of the original score for David Arquette's biopic, 'You Cannot Kill David Arquette', and some music in Sony Pictures film, 'Bad Country'. My style has been described as peaceful, uplifting, powerful, and heartfelt.
+      <br />
+      <br />
+      While creating the original score for 'The Kindness Diaries', I took a creative detour from my typical instrumental compositions and added an acoustic track with my voice on it called, 'Rain' that received an overwhelmingly positive response from fans worldwide. This spark from my new fans inspired me to break down the barriers that had previously kept me from singing and performing.
+      <br />
+      <br />
+      I now release and perform original music around the US while growing my passion for music composition in the film and TV world. When I am not working, I love cooking, traveling with friends and family, playing tennis, volleyball, and basketball, having a beach day, or sitting at the piano playing my favorite classical piece.
       </p>
     </div>
   );
