@@ -16,11 +16,11 @@ function Project(props) {
           <p>{props.desc}</p>
         </div>
         <div className='links'>
-          <a target='_blank' href={props.github} rel='noreferrer'>
+          {/* <a target='_blank' href={props.github} rel='noreferrer'>
             Github Repository
-          </a>
+          </a> */}
           <a target='_blank' href={props.deployed} rel='noreferrer'>
-            Deployed Site
+            {props.action}
           </a>
         </div>
       </div>
