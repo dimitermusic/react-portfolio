@@ -46,6 +46,9 @@ export default function Page() {
           <br />
           <br />
           I now release and perform original music all around the US while continuing to grow my passion for music composition in the film and TV world. When I am not working, I love cooking, traveling with friends and family, playing tennis, volleyball, and basketball, going to the beach, and sitting at the piano playing my favorite classical compositions.
+          <br />
+          <br />
+          – Dimiter
           </p>
         </div>
         <h2 id='contact' style={{marginTop: '200px'}}>Contact</h2>
