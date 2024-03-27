@@ -32,7 +32,7 @@ export default function Page() {
         <div style={{marginTop: '20px'}}>
           <iframe src='https://player.vimeo.com/video/926709263?h=657ef3fd79&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' width={window.innerWidth > 960 ? '960' : '336'} height={window.innerWidth > 960 ? '540' : '189'} frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' title='Dimiter Yordanov Music Composer Demo Reel'></iframe>
         </div>
-        <h2 id='listen' style={{marginTop: '200px'}}>Playlist</h2>
+        <h2 id='listen' style={{marginTop: '200px'}}>Audio</h2>
         <div style={{marginTop: '20px'}}>
           <iframe
             width={window.innerWidth > 960 ? "960" : "336"}
