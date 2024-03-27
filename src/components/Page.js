@@ -46,7 +46,7 @@ export default function Page() {
               target="_blank"
               style={{ color: "#cccccc", textDecoration: "none" }}
             >
-              Dimiter
+              Dimiter Yordanov
             </a>{" "}
             ·{" "}
             <a
@@ -56,7 +56,7 @@ export default function Page() {
               style={{color: '#cccccc', textDecoration: 'none'}}
 
             >
-              Dimiter Yordanov Music Composer Best Works
+              My Best Original TV & Film Music
             </a>
           </div>
         </div>
