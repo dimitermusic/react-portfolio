@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css'
-import { FaGithub, FaInstagram, FaEnvelope, FaImdb, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaImdb, FaYoutube } from "react-icons/fa";
 
 
 function Footer() {
@@ -16,15 +16,6 @@ function Footer() {
             <FaImdb />
           </div>
         </a>
-        {/* <a
-          target="_blank"
-          href="https://github.com/dimitermusic"
-          rel="noreferrer"
-        >
-          <div>
-            <FaGithub />
-          </div>
-        </a> */}
         <a
           target="_blank"
           href="https://www.instagram.com/dimitermusic/"

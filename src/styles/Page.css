@@ -1,0 +1,59 @@
+body {
+  font-family: "roboto";
+}
+
+
+.page-content {
+  padding: 2vh 0 10vh;
+  min-height: 98vh;
+  background-image: url("../images/axe.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.nav-container {
+  margin-top: 48px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  height: 230px;
+}
+
+.nav-container a {
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-container a:hover {
+  font-size: 34px;
+  color: rgb(233, 227, 255);
+}
+
+.about-container {
+  padding: 20px 20px;
+  width: 960px;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.572);
+}
+
+.contact a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact a:hover {
+  font-size: 16px;
+  color: rgb(233, 227, 255);
+}
