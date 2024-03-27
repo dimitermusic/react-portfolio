@@ -1,18 +1,8 @@
-:root {
-  --slate: #30343d;
-  --green: #92cccd;
-  --blue: #455875;
-  --white: white;
-}
-
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--slate);
   height: 10vh;
-  padding-bottom: 33px;
-  padding-top: 20px;
 }
 
 .icons a {
@@ -20,10 +10,11 @@
   margin-left: 10px;
   margin-right: 10px;
   font-size: 40px;
-  color: var(--green);
+  color: white;
   transition: all 0.2s ease-in-out;
 }
 
 .icons a:hover {
-  color: var(--white);
+  color: rgb(233, 227, 255);
+  font-size: 47px;
 }

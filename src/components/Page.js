@@ -1,36 +1,63 @@
-import React, { useState } from 'react';
-import Navigation from './Navigation';
+import React from 'react';
 import Footer from './Footer';
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import '../styles/Page.css'
 
 export default function Page() {
-  const [currentPage, setCurrentPage] = useState('AboutMe');
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-  const renderPage = () => {
-    if (currentPage === 'AboutMe') {
-      return <AboutMe />;
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
-    return <Resume />;
+  const renderPageContent = () => {
+    return (
+      <div
+        className='page-content'
+      >
+        <Footer />
+        <h1 style={{marginTop: '200px', fontSize: '64px'}}>Dimiter Yordanov</h1>
+        <h3 style={{marginTop: '8px'}}>Music Composer</h3>
+        <div className='nav-container'>
+          <a href="#watch" target="_self">
+            Video
+          </a>
+          <a href="#listen" target="_self">
+            Audio
+          </a>
+          <a href="#about" target="_self">
+            About
+          </a>
+          <a href="#contact" target="_self">
+            Contact
+          </a>
+        </div>
+        <h2 id='watch' style={{marginTop: '200px'}}>Demo Reel</h2>
+        <div style={{marginTop: '20px'}}>
+          <iframe src='https://player.vimeo.com/video/926709263?h=657ef3fd79&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' width='960' height='540' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' title='Dimiter Yordanov Music Composer Demo Reel'></iframe>
+        </div>
+        <h2 id='listen' style={{marginTop: '200px'}}>Playlist</h2>
+        <div style={{marginTop: '20px'}}>
+          <iframe width='960' height='540' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1798534824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true'></iframe>
+        </div>
+        <h2 id='about' style={{marginTop: '200px'}}>About</h2>
+        <div  style={{marginTop: '20px'}} className='about-container'>
+          <p>
+          I am a film and TV music composer based in Seattle, known for creating the entire original score for both seasons of Netflix docu-series, 'The Kindness Diaries', most of the original score for David Arquette's biopic, 'You Cannot Kill David Arquette', and some music in Sony Pictures film, 'Bad Country'. My style has been described as peaceful, uplifting, powerful, and heartfelt.
+          <br />
+          <br />
+          While creating the original score for 'The Kindness Diaries', I took a creative detour from my typical instrumental compositions and added an acoustic track with my voice on it called, 'Rain' that received an overwhelmingly positive response from fans worldwide. This spark from my new fans inspired me to break down the barriers that had previously kept me from singing and performing.
+          <br />
+          <br />
+          I now release and perform original music all around the US while continuing to grow my passion for music composition in the film and TV world. When I am not working, I love cooking, traveling with friends and family, playing tennis, volleyball, and basketball, going to the beach, and sitting at the piano playing my favorite classical compositions.
+          </p>
+        </div>
+        <h2 id='contact' style={{marginTop: '200px'}}>Contact</h2>
+        <div  style={{marginTop: '20px', marginBottom: '124px'}} className='contact'>
+          <a href='mailto:dimitermusic@gmail.com'>dimitermusic@gmail.com</a>
+        </div>
+        <Footer />
+      </div>
+    )
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
-
   return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
-      <Footer />
+    <div >
+      {renderPageContent()}
     </div>
   );
 }
