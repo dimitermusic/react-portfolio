@@ -34,7 +34,31 @@ export default function Page() {
         </div>
         <h2 id='listen' style={{marginTop: '200px'}}>Playlist</h2>
         <div style={{marginTop: '20px'}}>
-          <iframe width={window.innerWidth > 960 ? '960' : '336'} height={window.innerWidth > 960 ? '540' : '189'} scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1798534824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true'></iframe>
+          <iframe
+            width={window.innerWidth > 960 ? "960" : "336"}
+            height={window.innerWidth > 960 ? "540" : "189"}
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1798534824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: 100}}>
+            <a
+              href="https://soundcloud.com/dimitermusic"
+              title="Dimiter"
+              target="_blank"
+              style={{ color: "#cccccc", textDecoration: "none" }}
+            >
+              Dimiter
+            </a>{" "}
+            ·{" "}
+            <a
+              href="https://soundcloud.com/dimitermusic/sets/dimiter-music-composer-best"
+              title="Dimiter Yordanov Music Composer Best Works"
+              target="_blank"
+              style={{color: '#cccccc', textDecoration: 'none'}}
+
+            >
+              Dimiter Yordanov Music Composer Best Works
+            </a>
+          </div>
         </div>
         <h2 id='about' style={{marginTop: '200px'}}>About</h2>
         <div  style={{marginTop: '20px'}} className='about-container'>
