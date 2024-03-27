@@ -30,11 +30,11 @@ export default function Page() {
         </div>
         <h2 id='watch' style={{marginTop: '200px'}}>Demo Reel</h2>
         <div style={{marginTop: '20px'}}>
-          <iframe src='https://player.vimeo.com/video/926709263?h=657ef3fd79&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' width={window.innerWidth > 960 ? '960' : '336'} height={window.innerWidth > 960 ? '960' : '189'} frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' title='Dimiter Yordanov Music Composer Demo Reel'></iframe>
+          <iframe src='https://player.vimeo.com/video/926709263?h=657ef3fd79&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' width={window.innerWidth > 960 ? '960' : '336'} height={window.innerWidth > 960 ? '540' : '189'} frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' title='Dimiter Yordanov Music Composer Demo Reel'></iframe>
         </div>
         <h2 id='listen' style={{marginTop: '200px'}}>Playlist</h2>
         <div style={{marginTop: '20px'}}>
-          <iframe width={window.innerWidth > 960 ? '960' : '336'} height={window.innerWidth > 960 ? '960' : '189'} scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1798534824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true'></iframe>
+          <iframe width={window.innerWidth > 960 ? '960' : '336'} height={window.innerWidth > 960 ? '540' : '189'} scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1798534824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true'></iframe>
         </div>
         <h2 id='about' style={{marginTop: '200px'}}>About</h2>
         <div  style={{marginTop: '20px'}} className='about-container'>
