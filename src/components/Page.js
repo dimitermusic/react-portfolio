@@ -45,7 +45,7 @@ export default function Page() {
           While creating the original score for 'The Kindness Diaries', I took a creative detour from my typical instrumental compositions and added an acoustic track with my voice on it called, 'Rain' that received an overwhelmingly positive response from fans worldwide. This spark from my new fans inspired me to break down the barriers that had previously kept me from singing and performing.
           <br />
           <br />
-          I now release and perform original music all around the US while continuing to grow my passion for music composition in the film and TV world. When I am not working, I love cooking, traveling with friends and family, playing tennis, volleyball, and basketball, going to the beach, and sitting at the piano playing my favorite classical compositions.
+          I now release and perform original music all around the US while continuing to grow my passion for music composition in the film and TV world.
           <br />
           <br />
           – Dimiter
