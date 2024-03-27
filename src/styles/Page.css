@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-
 .page-content {
   padding: 2vh 0 10vh;
   min-height: 98vh;
@@ -17,25 +16,32 @@ body {
   color: white;
 }
 
+.title {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
 .nav-container {
-  margin-top: 48px;
+  margin-top: 38px;
   display: flex;
   flex: row;
   justify-content: space-between;
   align-items: center;
-  gap: 48px;
+  gap: 72px;
   height: 230px;
 }
 
 .nav-container a {
-  font-size: 32px;
   text-decoration: none;
   color: white;
+  font-size: 20px;
+  font-weight: 100;
   transition: all 0.2s ease-in-out;
 }
 
 .nav-container a:hover {
-  font-size: 34px;
+  font-size: 23px;
   color: rgb(233, 227, 255);
 }
 

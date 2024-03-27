@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './Footer';
+import Footer from './Icons';
 import '../styles/Page.css'
 
 export default function Page() {
@@ -10,20 +10,22 @@ export default function Page() {
         className='page-content'
       >
         <Footer />
-        <h1 style={{marginTop: '200px', fontSize: '64px'}}>Dimiter Yordanov</h1>
-        <h3 style={{marginTop: '8px'}}>Music Composer</h3>
+        <a href='/' target="_self" className='title'>
+          <h1 style={{marginTop: '180px', marginBottom: '12px', fontSize: '64px'}}>Dimiter Yordanov</h1>
+          <h2 style={{marginTop: '8px'}}>Music Composer</h2>
+        </a>
         <div className='nav-container'>
           <a href="#watch" target="_self">
-            Video
+            VIDEO
           </a>
           <a href="#listen" target="_self">
-            Audio
+            AUDIO
           </a>
           <a href="#about" target="_self">
-            About
+            ABOUT
           </a>
           <a href="#contact" target="_self">
-            Contact
+            CONTACT
           </a>
         </div>
         <h2 id='watch' style={{marginTop: '200px'}}>Demo Reel</h2>

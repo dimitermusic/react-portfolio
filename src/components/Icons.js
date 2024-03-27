@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Footer.css'
+import '../styles/Icons.css'
 import { FaInstagram, FaEnvelope, FaImdb, FaYoutube } from "react-icons/fa";
 
 
