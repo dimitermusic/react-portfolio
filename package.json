@@ -1,7 +1,8 @@
 {
-  "name": "react-portfolio",
-  "version": "0.1.0",
+  "name": "dimiter-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "license": "Apache-2.0",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
