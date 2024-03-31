@@ -45,8 +45,8 @@ export default function Page() {
         <div className="playlist-description">
           <a href={SOUNDCLOUD_LINK} title={FIRST_NAME} target="_blank">
             {FIRST_NAME}
-          </a>{" "}
-          ·{" "}
+          </a>
+          {" "}·{" "}
           <a
             href={PLAYLIST_LINK}
             title={PLAYLIST_DESCRIPTION_TEXT}
@@ -63,8 +63,12 @@ export default function Page() {
     <div className="page-content">
       <Icons />
       <a href="/" target="_self" className="heading-container">
-        <h1 className="heading">{NAME}</h1>
-        <h2 className="sub-heading">{SUB_HEADING}</h2>
+        <h1 className="heading">
+          {NAME}
+        </h1>
+        <h2 className="sub-heading">
+          {SUB_HEADING}
+        </h2>
       </a>
       <div className="nav-container">
         <a href="#watch" target="_self">
@@ -83,22 +87,30 @@ export default function Page() {
       <h2 id="watch" className="section-heading">
         {VIDEO_HEADING}
       </h2>
-      <div className="content-container">{renderVideoIframe()}</div>
+      <div className="content-container">
+        {renderVideoIframe()}
+      </div>
       <h2 id="listen" className="section-heading">
         {AUDIO_HEADING}
       </h2>
-      <div className="content-container">{renderAudioIframe()}</div>
+      <div className="content-container">
+        {renderAudioIframe()}
+      </div>
       <h2 id="about" className="section-heading">
         {ABOUT_HEADING}
       </h2>
       <div className="about-container">
-        <p className="about-text">{ABOUT_TEXT}</p>
+        <p className="about-text">
+          {ABOUT_TEXT}
+        </p>
       </div>
       <h2 id="contact" className="section-heading">
         {CONTACT_HEADING}
       </h2>
       <div className="email-container">
-        <a href={EMAIL_LINK}>{EMAIL_ADDRESS}</a>
+        <a href={EMAIL_LINK}>
+          {EMAIL_ADDRESS}
+        </a>
       </div>
       <Icons />
     </div>
