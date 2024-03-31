@@ -1,9 +1,8 @@
-import React from 'react';
-import '../styles/Footer.css'
+import React from "react";
+import "./Icons.css";
 import { FaInstagram, FaEnvelope, FaImdb, FaYoutube } from "react-icons/fa";
 
-
-function Footer() {
+function Icons() {
   return (
     <>
       <div className="icons">
@@ -48,4 +47,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Icons;

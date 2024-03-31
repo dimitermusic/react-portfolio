@@ -1,12 +1,11 @@
 body {
-  font-family: "roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-
 
 .page-content {
   padding: 2vh 0 10vh;
   min-height: 98vh;
-  background-image: url("../images/axe.webp");
+  background-image: url("../../images/axe.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,6 +14,15 @@ body {
   justify-content: flex-start;
   align-items: center;
   color: white;
+}
+
+.name {
+  margin-top: 200px;
+  font-size: 64px;
+}
+
+.subheading {
+  margin-top: 8px;
 }
 
 .nav-container {
@@ -39,21 +47,31 @@ body {
   color: rgb(233, 227, 255);
 }
 
+.section-heading {
+  margin-top: 200px;
+}
+
 .about-container {
+  margin-top: 20px;
   padding: 20px 20px;
   width: 960px;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.572);
 }
 
-.contact a {
+.email-container {
+  margin-top: 20px;
+  margin-bottom: 124px;
+}
+
+.email-container a {
   font-size: 16px;
   text-decoration: none;
   color: white;
   transition: all 0.2s ease-in-out;
 }
 
-.contact a:hover {
+.email-container a:hover {
   font-size: 16px;
   color: rgb(233, 227, 255);
 }
