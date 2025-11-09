@@ -1,80 +1,159 @@
+/* === ROOT & BODY === */
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  background-color: #121212;
+  font-weight: 300;
+  color: #f1f1f1;
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 75vh;
-}
-
-iframe {
-  width: 336px;
-  height: 189px;
+  min-height: 100vh;
+  background-color: #121212;
+  background-image: radial-gradient(
+    ellipse at top center,
+    #2a2a2a 0%,
+    #121212 80%
+  );
+  background-attachment: fixed;
 }
 
 p {
   white-space: pre-wrap;
+  line-height: 1.7;
+  font-size: 1.1rem;
 }
 
+/* === PAGE STRUCTURE === */
 .page-content {
-  padding: 2vh 0 10vh;
-  min-height: 98vh;
-  background-image: url("../../images/axe.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 0 20vw 10vh;
+
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  color: white;
+  box-sizing: border-box;
+  width: 100%;
 }
 
+/* === TYPOGRAPHY & BRANDING === */
 .heading-container {
   text-decoration: none;
   color: white;
   text-align: center;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
 }
 
 .heading {
-  margin-bottom: 12px;
-  font-size: 64px;
-  margin-top: 120px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 4.5rem;
+  letter-spacing: 1.5px;
+  margin: 0;
 }
 
 .sub-heading {
-  margin-top: 8px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  margin-top: 10px;
 }
 
+/* === NAVIGATION === */
 .nav-container {
-  margin-top: 38px;
+  margin-top: 20px;
   display: flex;
-  flex: row;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  gap: 72px;
-  font-size: 20px;
-  font-weight: 100;
-  height: 230px;
+  gap: 60px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .nav-container a {
   text-decoration: none;
-  color: white;
-  transition: all 0.2s ease-in-out;
+  color: #f1f1f1;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .nav-container a:hover {
-  font-size: 23px;
-  color: rgb(233, 227, 255);
+  opacity: 1;
 }
 
+/* === THE HERO REEL === */
+.hero-reel-container {
+  position: relative;
+
+  /* === THIS IS THE FIX === */
+  /* This now "breaks out" of your 20vw padding */
+  width: 100vw;
+  margin-left: -20vw;
+  margin-right: -20vw;
+
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  margin-top: 40px;
+  background-color: #000;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.hero-reel-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* === CONTENT WRAPPER === */
+.content-wrapper {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* === SECTION STYLING === */
 .section-heading {
-  margin-top: 200px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .content-container {
-  margin-top: 20px;
+  margin-top: 0;
+  width: 100%;
+  max-width: 100%; /* Changed from 480px */
+}
+
+.content-container iframe {
+  width: 100%;
+  height: 360px;
+  border: none;
 }
 
 .playlist-description {
@@ -95,60 +174,59 @@ p {
   text-decoration: "none";
 }
 
+/* === ABOUT & CONTACT === */
 .about-container {
-  margin-top: 20px;
-  padding: 20px 20px;
-  width: 960px;
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
   text-align: justify;
-  background-color: rgba(0, 0, 0, 0.572);
+  background-color: transparent;
 }
 
 .email-container {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 124px;
+  text-align: center;
 }
 
 .email-container a {
-  font-size: 16px;
+  font-size: 1.1rem;
   text-decoration: none;
   color: white;
-  transition: all 0.2s ease-in-out;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .email-container a:hover {
-  font-size: 16px;
-  color: rgb(233, 227, 255);
+  opacity: 1;
 }
 
-@media screen and (max-width: 1070px) {
-  .about-container,
-  .nav-container {
-    width: 336px;
-    gap: 12px;
-    font-size: 16px;
-    margin-top: 12px;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  .heading {
-    margin-top: 180px;
-  }
-  .sub-heading {
-    font-size: 24px;
-  }
-}
-
+/* === RESPONSIVE === */
 @media screen and (max-width: 960px) {
-  .sub-heading {
-    font-size: 20px;
-    margin-top: 20px;
+  .heading {
+    font-size: 3rem;
+    margin-top: 10vh;
   }
-}
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+  .nav-container {
+    gap: 30px;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 
-@media (min-width: 960px) {
-  iframe {
-    width: 960px;
-    height: 540px;
+  /* On mobile, reset the reel margins to stay in the padding */
+  .hero-reel-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* On mobile, reset the padding to 5vw */
+  .page-content {
+    padding: 0 5vw 10vh;
   }
 }

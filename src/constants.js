@@ -1,20 +1,29 @@
-export const VIDEO_LINK_TEXT = "VIDEO";
 export const AUDIO_LINK_TEXT = "AUDIO";
 export const ABOUT_LINK_TEXT = "ABOUT";
 export const CONTACT_LINK_TEXT = "CONTACT";
-export const VIDEO_HEADING = VIDEO_LINK_TEXT;
 export const AUDIO_HEADING = AUDIO_LINK_TEXT;
 export const ABOUT_HEADING = ABOUT_LINK_TEXT;
 export const CONTACT_HEADING = CONTACT_LINK_TEXT;
 export const NAME = "Dimiter Yordanov";
 export const FIRST_NAME = "Dimiter";
-export const SUB_HEADING = "Singer-songwriter & Music Composer";
-export const ABOUT_TEXT = `I am a film and TV music composer based in Seattle, known for creating the entire original score for both seasons of Netflix docu-series, 'The Kindness Diaries', most of the original score for David Arquette's biopic, 'You Cannot Kill David Arquette', and some music in Sony Pictures film, 'Bad Country'. My style has been described as peaceful, uplifting, powerful, and heartfelt.\n\nWhile creating the original score for 'The Kindness Diaries', I took a creative detour from my typical instrumental compositions and added an acoustic track with my voice on it called, 'Rain' that received an overwhelmingly positive response from fans worldwide. This spark from my new fans inspired me to break down the barriers that had previously kept me from singing and performing. I now release and perform original music all around the US while continuing to grow my passion for music composition in the film and TV world.\n\n– Dimiter`;
-export const EMAIL_ADDRESS = "dimitermusic@gmail.com";
+export const SUB_HEADING = "Film & Television Composer";
+export const ABOUT_TEXT = `Dimiter Yordanov is a Seattle-based composer and multi-instrumentalist whose work is featured by industry leaders like Netflix, Hulu, and Warner Chappell Production Music.
+
+His credits include the SXSW-selected biopic 'You Cannot Kill David Arquette' and the documentary 'The Kindness Within', which won Best Documentary at the 2024 Beverly Hills Film Festival.
+
+His style, often described as "peaceful, powerful, and heartfelt," blends intimate, emotional instrumentation with stirring cinematic themes.
+
+For the Netflix docu-series 'The Kindness Diaries' (Seasons 1 & 2), Dimiter served as the sole composer, writing the theme and all original music, as well as performing every instrument and all vocals.
+
+This artistic versatility, paired with his technical discipline as a Senior Software Engineer, defines his reliable and collaborative approach to every production.
+
+– Erick Torres`;
+export const EMAIL_ADDRESS = "info@dimitermusic.com";
 export const EMAIL_LINK = `mailto:${EMAIL_ADDRESS}`;
-export const FILM_TV_PLAYLIST_DESCRIPTION_TEXT = "My Best Original TV & Film Music";
-export const ARTIST_PLAYLIST_DESCRIPTION_TEXT = "Best Singer-Songwriter Works";
+export const FILM_TV_PLAYLIST_DESCRIPTION_TEXT =
+  "My Best Original TV & Film Music";
 export const SOUNDCLOUD_LINK = "https://soundcloud.com/dimitermusic";
 export const IMDB_LINK = "https://www.imdb.com/name/nm1812085";
 export const INSTAGRAM_LINK = "https://www.instagram.com/dimitermusic/";
-export const YOUTUBE_LINK = "https://www.youtube.com/channel/UCfu37nGmXSfgaMsUS5yO85g";
+export const YOUTUBE_LINK =
+  "https://www.youtube.com/channel/UCfu37nGmXSfgaMsUS5yO85g";
