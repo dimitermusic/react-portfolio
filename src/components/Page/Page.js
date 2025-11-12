@@ -65,10 +65,10 @@ export default function Page() {
   return (
     <div className="page-content">
       <Icons />
-      <a href="/" target="_self" className="heading-container">
+      <div className="heading-container">
         <h1 className="heading">{NAME}</h1>
         <h2 className="sub-heading">{SUB_HEADING}</h2>
-      </a>
+      </div>
       <div className="nav-container">
         <a href="#listen" target="_self">
           {AUDIO_LINK_TEXT}
